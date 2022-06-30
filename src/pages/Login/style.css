@@ -1,0 +1,66 @@
+.ant-layout-login {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.ant-layout-login>main {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 45px 30px;
+    background: #fff;
+    box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+    height: auto;
+}
+
+.ant-layout-login img {
+    width: 100%;
+}
+
+.ant-layout-login input {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    width: 80%;
+}
+
+.ant-layout-login form {
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.ant-layout-login button {
+    padding: 8px 6px;
+    width: 180px;
+    background: #c1c2c4;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .75rem;
+    transition: all 1s ease;
+    margin-top: 20px;
+}
+
+.ant-layout-login button:hover {
+    background-color: #b7b8ba;
+}
+
+.ant-layout-login button:hover,
+.ant-layout-login button:active,
+.ant-layout-login button:focus {
+    outline: none;
+}
+
+.ant-layout-login label {
+    font-size: .75rem;
+    color: #f37575;
+}
+
+.erro {
+    border: 1px solid #f37575 !important;
+}

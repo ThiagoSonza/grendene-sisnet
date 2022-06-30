@@ -1,0 +1,65 @@
+@media screen and (max-width: 521px) {
+    main div.programs {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 630px) {
+    main div.programs {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 631px) and (max-width: 730px) {
+    main div.programs {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 731px) and (max-width: 880px) {
+    main div.programs {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 990px) {
+    main div.programs {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1080px) {
+    main div.programs {
+        grid-template-columns: repeat(6, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1380px) {
+    main div.programs {
+        grid-template-columns: repeat(8, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1381px) and (max-width: 1470px) {
+    main div.programs {
+        grid-template-columns: repeat(9, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1471px) and (max-width: 1580px) {
+    main div.programs {
+        grid-template-columns: repeat(10, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1581px) {
+    main div.programs {
+        grid-template-columns: repeat(11, 1fr) !important;
+    }
+}
+
+@media screen and (min-width: 1821px) {
+    main div.programs {
+        grid-template-columns: repeat(12, 1fr) !important;
+    }
+}
